@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "web-cam-project"
+version = "0.1.0"
+description = ""
+authors = ["yanvictorsn <yanvictosn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_cam_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^23.1.0"
+opencv-python = "^4.7.0.72"
+np = "^1.0.2"
+matplotlib = "^3.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
